@@ -1,5 +1,6 @@
 {
   "name": "buttons",
+  "homepage": "https://tktenshi.github.io/vote-buttons",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
