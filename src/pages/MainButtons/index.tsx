@@ -1,4 +1,4 @@
-import React, { memo, useState } from 'react';
+import React, { memo, MouseEventHandler, useState } from 'react';
 
 import * as Styled from './styled';
 
@@ -24,12 +24,29 @@ const MainButtons: React.FC<IMainButtonsProps> = (props) => {
     setBlackScore(prev => prev + 1);
   };
 
+  const onShowResultClick = (e: any) => {
+    e.stopPropagation();
+    setShowResult(!showResult);
+  };
+
   const onFinishButtonClick = () => {
     setShowResult(!showResult);
+
+    if (showResult) {
+      setRedScore(0);
+      setBlackScore(0);
+    }
   };
 
   return (
     <Styled.MainButtons>
+      <Styled.Menu>
+        <button onClick={onShowResultClick}>
+          {showResult ? "Скрывать " : "Отображать "}
+          результат
+        </button>
+      </Styled.Menu>
+
       <Styled.ScoreButtons>
         <Styled.RedButton onClick={onRedButtonClick}>
           {showResult ? redScore : ""}
@@ -41,7 +58,7 @@ const MainButtons: React.FC<IMainButtonsProps> = (props) => {
       </Styled.ScoreButtons>
 
       <Styled.FinishButton onClick={onFinishButtonClick}>
-        {showResult ? "Начать заново" : "Показать результат"}
+        {showResult ? "Начать заново" : "Показать итоги"}
       </Styled.FinishButton>
     </Styled.MainButtons>
   );

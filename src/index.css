@@ -19,3 +19,17 @@ code {
 * {
   box-sizing: border-box;
 }
+
+@media all and (orientation: portrait) {
+  html {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  body {
+    transform: rotate(-90deg);
+    width: 100vh;
+    height: 100vw;
+  }
+}

@@ -1,18 +1,15 @@
 import styled, { keyframes } from 'styled-components';
+import DropdownBtn from '../../components/dropdownBtn';
 
 export const MainButtons = styled.div`
   height: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-direction: column;  
-  //gap: 0 8%;
-  //flex-wrap: wrap;
-  //margin: 5%;
-  //background: black;
+  flex-direction: column;
 `
 
-export const ScoreButtons = styled.div`  
+export const ScoreButtons = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
@@ -22,10 +19,16 @@ export const ScoreButtons = styled.div`
   height: 60%;
 `
 
-export const FinishButton = styled.button`    
+export const FinishButton = styled.button`
   width: 100px;
   height: 40px;
   margin: 1% 0 4%;
+`
+
+export const Menu = styled(DropdownBtn)`
+  position: absolute;
+  top: 2%;
+  right: 2%;
 `
 
 const glowing = keyframes`
@@ -41,8 +44,10 @@ const glowing = keyframes`
 `
 
 export const Button = styled.button`
+  min-height: 130px;
+  min-width: 130px;
   width: 35%;
-  height: 80%;
+  height: 90%;
   border: none;
   outline: none;
   color: #fff;
@@ -56,7 +61,7 @@ export const Button = styled.button`
   user-select: none;
   touch-action: manipulation;
   will-change: transform;
-  
+
   &:hover {
     transform: translate(-0.5%, -0.5%);
   }
@@ -108,7 +113,7 @@ export const Button = styled.button`
 `
 
 export const RedButton = styled(Button)`
-  background: #FF4742; 
+  background: #FF4742;
 `
 
 export const BlackButton = styled(Button)`
