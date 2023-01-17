@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/vote-buttons/static/css/main.0ea882cb.css",
-    "main.js": "/vote-buttons/static/js/main.78908665.js",
+    "main.js": "/vote-buttons/static/js/main.fb58972e.js",
     "static/js/787.49173756.chunk.js": "/vote-buttons/static/js/787.49173756.chunk.js",
     "index.html": "/vote-buttons/index.html",
     "main.0ea882cb.css.map": "/vote-buttons/static/css/main.0ea882cb.css.map",
-    "main.78908665.js.map": "/vote-buttons/static/js/main.78908665.js.map",
+    "main.fb58972e.js.map": "/vote-buttons/static/js/main.fb58972e.js.map",
     "787.49173756.chunk.js.map": "/vote-buttons/static/js/787.49173756.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0ea882cb.css",
-    "static/js/main.78908665.js"
+    "static/js/main.fb58972e.js"
   ]
 }
