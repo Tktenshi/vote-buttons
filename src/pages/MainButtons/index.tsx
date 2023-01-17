@@ -1,4 +1,4 @@
-import React, { memo, MouseEventHandler, useState } from 'react';
+import React, { memo, useState } from 'react';
 
 import * as Styled from './styled';
 
