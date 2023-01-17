@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/vote-buttons/static/css/main.f2b52664.css",
-    "main.js": "/vote-buttons/static/js/main.82d642ae.js",
+    "main.css": "/vote-buttons/static/css/main.0ea882cb.css",
+    "main.js": "/vote-buttons/static/js/main.78908665.js",
     "static/js/787.49173756.chunk.js": "/vote-buttons/static/js/787.49173756.chunk.js",
     "index.html": "/vote-buttons/index.html",
-    "main.f2b52664.css.map": "/vote-buttons/static/css/main.f2b52664.css.map",
-    "main.82d642ae.js.map": "/vote-buttons/static/js/main.82d642ae.js.map",
+    "main.0ea882cb.css.map": "/vote-buttons/static/css/main.0ea882cb.css.map",
+    "main.78908665.js.map": "/vote-buttons/static/js/main.78908665.js.map",
     "787.49173756.chunk.js.map": "/vote-buttons/static/js/787.49173756.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f2b52664.css",
-    "static/js/main.82d642ae.js"
+    "static/css/main.0ea882cb.css",
+    "static/js/main.78908665.js"
   ]
 }
