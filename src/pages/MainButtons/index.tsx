@@ -11,7 +11,7 @@ const MainButtons: React.FC<IMainButtonsProps> = (props) => {
   const [showResult, setShowResult] = useState(false)
 
   const onButtonClick = () => {
-    window.navigator.vibrate(100);
+    window.navigator?.vibrate(100);
   };
 
   const onRedButtonClick = () => {
